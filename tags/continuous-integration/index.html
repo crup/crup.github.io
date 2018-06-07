@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<title> Setting Up Hugo on GitHub Pages &middot; 2km </title>
+<title> Continuous Integration &middot; 2km </title>
 
 <style>
     html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}body{margin:0}a{background-color:transparent}img{max-width:100%;margin:1rem 0 0 1rem;border:0;border-radius:5px}button,input,select,textarea{font:inherit;margin:0}table{border-collapse:collapse;border-spacing:0;width:100%;margin-bottom:1.75rem}td,th{padding:.25rem .5rem}tbody tr:nth-child(odd) td,tbody tr:nth-child(odd) th{background-color:#f9f9f9}body{color:#555;font-family:source sans pro,helvetica neue,Helvetica,pingfang sc,hiragino sans gb,microsoft yahei,wenquanyi micro hei,Arial,Serif;font-size:100%;font-weight:400;line-height:1.85;letter-spacing:.01rem}h1,h2,h3,h4,h5,h6{font-weight:700;line-height:1.25;margin-bottom:.75rem;font-family:source sans pro,pingfang sc,hiragino sans gb,microsoft yahei,wenquanyi micro hei,helvetica neue,Helvetica,Arial,sans-serif}h1{font-size:1.8rem}h2{font-size:1.5rem}h3{font-size:1.25rem}h4,h5,h6{font-size:1rem}p,dl,ol,ul{margin-top:0;margin-bottom:1.75rem}a{color:#2980b9;text-decoration:none}a:hover,a:focus{text-decoration:underline}em{text-emphasis-style:circle;text-emphasis-position:under}code{font-family:source code pro,Monaco,Courier,monospace;font-size:.85rem;color:#555;background-color:#f5f5f5;border:1px solid #eef;border-radius:3px;padding:.2em .5em}pre{display:block;margin-top:0;margin-bottom:1rem;padding:1rem;font-size:.8rem;line-height:1.4;white-space:pre;white-space:pre-wrap;word-break:break-all;word-wrap:break-word;background-color:#f9f9f9}pre code{font-family:source code pro,Menlo,Monaco,Courier,monospace;font-size:.7rem;padding:0;color:inherit;background-color:transparent;border:0}blockquote{padding:.5rem 1rem;margin:.8rem 0 .8rem -1.5rem;color:#7a7a7a;border-left:.3rem solid #e5e5e5}blockquote p:last-child{margin-bottom:0}hr{border:0;border-top:1px solid rgba(0,0,0,.2);display:block;width:150px;margin:1.5rem 0}button,.btn{background-image:none;border:1px solid #ccc;border-radius:5px;color:#ccc;cursor:pointer;display:inline-block;font-family:inherit;font-size:85%;line-height:normal;padding:.5rem .75rem;text-align:center;text-transform:uppercase;text-decoration:none;vertical-align:middle;white-space:nowrap;-webkit-transition:all .3s;transition:all .3s}button::-moz-focus-inner,.btn::-moz-focus-inner{padding:0;border:0}button:hover,button:focus,.btn:hover,.btn:focus{color:#7fdbff;border:1px solid #7fdbff;-webkit-transition:all .3s;transition:all .3s;text-decoration:none}button:active,.btn:active{color:#0074d9;border:1px solid #0074d9;-webkit-transition:all .3s;transition:all .3s}.header{position:relative;margin:3rem auto}.site-title{font-size:1.5rem;font-weight:700}.site-title a{color:#333}.nav{position:absolute;top:0;left:-15px;transform:translateX(-100%);text-align:right}.nav-btn{display:inline-block;line-height:16px}.nav-btn.is-on .ci-burger{background:0 0}.nav-btn.is-on .ci-burger::before{-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg);top:0}.nav-btn.is-on .ci-burger::after{-webkit-transform:rotate(-45deg);-ms-transform:rotate(-45deg);transform:rotate(-45deg);bottom:0}.nav-btn.is-on+.nav-list{opacity:1}.nav-list{list-style:none;font-size:.8rem;margin-top:1rem;padding:0;opacity:0;-webkit-transition:all .2s;transition:all .2s}.nav-list .spacer{text-align:center}.ci{display:inline-block;font-size:inherit;font-style:normal;font-weight:400;line-height:1;position:relative;vertical-align:top}.ci:before,.ci:after{content:"";display:block;position:absolute}.ci-burger{width:16px;height:3px;top:7px;left:0;background:#333;-webkit-transition:all .3s;transition:all .3s}.ci-burger:before,.ci-burger:after{width:100%;height:3px;background:#333;left:0;-webkit-transition:all .3s;transition:all .3s}.ci-burger:before{top:-6px}.ci-burger:after{bottom:-6px}.container{*zoom:1;width:auto;max-width:48em;float:none;display:block;margin-right:auto;margin-left:auto;padding-left:3em;padding-right:3em}.container:before,.container:after{content:'';display:table}.container:after{clear:both}.pagination{position:relative;margin-top:5em}.pagination:before,.pagination:after{content:'';display:table}.pagination:after{clear:both}.pagination .previous{float:left}.pagination .next{float:right}.footer{color:#95a5a6;font-size:14px;text-align:center;margin:2rem 0 1rem}.footer a{color:#333}.post{position:relative;margin-bottom:2rem}.post-title:after{content:'';display:block;border-top:1px solid #ccc;width:100%;position:absolute;top:30px;left:-30px;z-index:-1}.post-title a{color:#333;background:#fff;line-height:60px;position:relative;padding:0 14px;margin-left:-14px;-webkit-transition:all .3s;transition:all .3s}.post-title a:after,.post-title a:before{content:'';position:absolute;border:3px solid transparent;top:13px;-webkit-transition:all .3s;transition:all .3s}.post-title a:before{left:-23px;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg)}.post-title a:after{-webkit-transform:rotate(225deg);-ms-transform:rotate(225deg);transform:rotate(225deg);right:-23px}.post-title a:hover:before,.post-title a:hover:after{border-top-color:#ccc;border-right-color:#ccc}.post-title a:hover:before{left:-3px}.post-title a:hover:after{right:-3px}.post-date{color:#ccc;font-size:14px;margin-top:-25px;display:block;position:relative}.post-content{margin:2rem 0}.post-tags{color:#ccc;display:block;font-size:14px;position:relative;margin-top:-25px;margin-left:125px;text-align:right;max-width:525px}.post-tags a{color:#ccc}
@@ -15,7 +15,7 @@
 <link rel="shortcut icon" href="/favicon.ico">
 
 
-<link href="" rel="alternate" type="application/rss+xml" title="2km" />
+<link href="https://2km.co/tags/continuous-integration/index.xml" rel="alternate" type="application/rss+xml" title="2km" />
 
 </head>
 
@@ -37,119 +37,29 @@
 </div>
     <div class="content">
       <div class="posts">
+         
         <div class="post">
-          <h2 class="post-title"><a href="https://2km.co/posts/setting-up-hugo-on-github-pages/">Setting Up Hugo on GitHub Pages</a></h2>
-          <span class="post-date">Jun 4, 2018 </span>
-          <div class="post-content">
-            
-
-<p>Recently I started learning <a href="https://golang.org/">GoLang</a> and came across <a href="https://gohugo.io/">Hugo</a> which is an open source and the fastest static site generator. Before migrating to Hugo this blog was on self-hosted <a href="https://ghost.org/">Ghost</a> on <a href="https://m.do.co/c/06ee52cfc556">DigitalOcean</a>. Ghost is a minimal and straightforward blogging platform which is more into WordPress, Medium or Tumblr league because it comes with a really beautiful admin panel.</p>
-
-<p>For shell lovers <a href="https://jekyllrb.com/">Jekyll</a>, <a href="https://gohugo.io/">Hugo</a>, <a href="https://hexo.io/">Hexo</a> and many other static site generators are no-nonsense tools for quickly spinning up &ldquo;portfolio-cum-personal-blog&rdquo; type websites. For now, I am quite convinced with Hugo and will continue using it until I find a better alternative.</p>
-
-<h3 id="why-github-pages">Why GitHub Pages?</h3>
-
-<p>Because, it&rsquo;s free. <a href="https://pages.github.com/">GitHub Pages</a>  allows you to host your websites and project&rsquo;s websites with few other freebies:</p>
-
-<ul>
-<li>Custom domain with SSL</li>
-<li>Travis CI</li>
-</ul>
-
-<h3 id="setup-repositories">Setup Repositories</h3>
-
-<p>Create two repositories, <code>username.github.io</code> for website and <code>awesome-hugo-project</code> for Hugo source. Repository name for Hugo source can be anything. Whatever floats your boat!</p>
-
-<h3 id="install-hugo">Install Hugo</h3>
-
-<p><code>brew install hugo</code></p>
-
-<p>You may follow official <a href="https://gohugo.io/getting-started/installing/">installation guide</a> for other operating systems.</p>
-
-<h3 id="create-hugo-project">Create Hugo project</h3>
-
-<ul>
-<li>Create a new Hugo site
-<code>
-hugo new site awesome-hugo-project
-</code></li>
-<li>Setup git for <code>awesome-hugo-project</code>, install any <a href="https://themes.gohugo.io/">Hugo theme</a> of your choice , create first post and push your project to GitHub.</li>
-</ul>
-
-<pre><code>### Configure git
-git init
-git config user.name &quot;Darth Vader&quot;
-git config user.email &quot;darthvader@darkside.com&quot;
-git remote add origin https://github.com/{user}/awesome-hugo-project.git
-
-### Install theme
-git submodule add https://github.com/&lt;repo&gt;/&lt;theme&gt;.git themes/theme
-echo 'theme = &quot;theme&quot;' &gt;&gt; config.toml
-
-# Create first post
-hugo new posts/hello-world.md
-
-# Push to GitHub
-git add .
-git commit -m &quot;Initial commit&quot;
-git push -u origin master
-</code></pre>
-
-<ul>
-<li>Generate static files in website&rsquo;s repo.</li>
-</ul>
-
-<pre><code># Navigate to Hugo project
-cd ~/Projects/awesome-hugo-project
-
-# Generate static files
-hugo -d ~/Projects/username.github.io
-</code></pre>
-
-<ul>
-<li>Setup git for <code>username.github.io</code> and publish your static site.</li>
-</ul>
-
-<pre><code># Configure git
-git init
-git config user.name &quot;Darth Vader&quot;
-git config user.email &quot;darthvader@darkside.com&quot;
-git remote add origin https://github.com/{user}/username.github.io.git
-
-# Push to GitHub
-git add .
-git commit -m &quot;Initial commit&quot;
-git push -u origin master
-</code></pre>
-
-<p>Your site is now available at <a href="http://username.github.io">http://username.github.io</a>.</p>
-
-<h3 id="configure-custom-domain">Configure custom domain</h3>
-
-<ul>
-<li>Delete previous A records for &lsquo;@&rsquo; or &lsquo;example.com&rsquo; in DNS configuration and point them to <code>185.199.108.153</code>, <code>185.199.109.153</code>, <code>185.199.110.153</code> and <code>185.199.111.153</code>.</li>
-<li>On project&rsquo;s setting page of username.github.io, add your custom domain e.g. <a href="https://2km.co">example.com</a> and click &ldquo;Save&rdquo;.</li>
-</ul>
-
-<p>In few minutes or 48 hours your site will be available on your custom domain.</p>
-
-<h3 id="references">References</h3>
-
-<ul>
-<li><a href="https://gohugo.io/getting-started/quick-start/">Hugo quick start guide</a></li>
-<li><a href="https://gohugo.io/getting-started/configuration/">Hugo configurations</a></li>
-<li><a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/#github-project-pages">Deployment on gh-pages</a></li>
-<li><a href="https://help.github.com/articles/using-a-custom-domain-with-github-pages/">Using custom domains with GitHub</a></li>
-</ul>
-
-          </div>
+          <h2 class="post-title"><a href="https://2km.co/posts/deploy-hugo-on-github-pages-with-travis-ci/">Deploy Hugo on Github Pages With Travis Ci</a></h2>
+          <span class="post-date">Jun 7, 2018</span>
+		  
+			<span class="post-tags">
+		  	
+			          #<a href="https://2km.co/tags/hugo">Hugo</a>&nbsp;
+		  	
+			          #<a href="https://2km.co/tags/travis">Travis</a>&nbsp;
+		  	
+			          #<a href="https://2km.co/tags/continuous-integration">Continuous Integration</a>&nbsp;
+		  	
+		    </span>
+		  
+		  
         </div>
-        <div class="pagination">
-          <a class="btn previous " href="https://2km.co/posts/deploy-hugo-on-github-pages-with-travis-ci/"> Prev</a>  
-        </div>
+        
       </div>
+      <div class="pagination">
+   
+</div>
     </div>
-    
     <div class="footer">
   
   <p>Powered by <a href="http://gohugo.io">Hugo</a>. This theme slim-coder is open sourced on <a href="https://github.com/crup/slim-coder">Github</a>.</p>
@@ -160,11 +70,8 @@ git push -u origin master
 <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Source+Code+Pro' rel='stylesheet' type='text/css'>
   </div>
   <script src="https://2km.co/js/slim.js"></script>
-  <script src="https://2km.co/js/highlight.min.js"></script>
-  <script>
-    hljs.initHighlightingOnLoad();
-  </script>
   
+
 </body>
 
 </html>

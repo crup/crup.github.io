@@ -6,10 +6,20 @@
     <description>Recent content in Posts on 2km</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Jun 2018 22:39:12 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 07 Jun 2018 15:54:58 +0530</lastBuildDate>
     
 	<atom:link href="https://2km.co/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Deploy Hugo on Github Pages With Travis Ci</title>
+      <link>https://2km.co/posts/deploy-hugo-on-github-pages-with-travis-ci/</link>
+      <pubDate>Thu, 07 Jun 2018 15:54:58 +0530</pubDate>
+      
+      <guid>https://2km.co/posts/deploy-hugo-on-github-pages-with-travis-ci/</guid>
+      <description>Getting started with Hugo is very interesting especially when you are new to static site generators. Just run hugo serve and your markdown files are converted into a website. But, when it comes deployment it&amp;rsquo;s really painful if you&amp;rsquo;re doing it manually and it&amp;rsquo;s more painful when you have to do the whole process all over again just to fix a stupid typo.
+In my previous post - Setting Up Hugo on GitHub Pages, I talked about hosting Hugo sites on GitHub pages and one of the reason for doing so was Travis CI.</description>
+    </item>
     
     <item>
       <title>Setting Up Hugo on GitHub Pages</title>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo on 2km</title>
-    <link>https://2km.co/tags/hugo/</link>
-    <description>Recent content in Hugo on 2km</description>
+    <title>Continuous Integration on 2km</title>
+    <link>https://2km.co/tags/continuous-integration/</link>
+    <description>Recent content in Continuous Integration on 2km</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 07 Jun 2018 15:54:58 +0530</lastBuildDate>
     
-	<atom:link href="https://2km.co/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://2km.co/tags/continuous-integration/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,16 +19,6 @@
       <guid>https://2km.co/posts/deploy-hugo-on-github-pages-with-travis-ci/</guid>
       <description>Getting started with Hugo is very interesting especially when you are new to static site generators. Just run hugo serve and your markdown files are converted into a website. But, when it comes deployment it&amp;rsquo;s really painful if you&amp;rsquo;re doing it manually and it&amp;rsquo;s more painful when you have to do the whole process all over again just to fix a stupid typo.
 In my previous post - Setting Up Hugo on GitHub Pages, I talked about hosting Hugo sites on GitHub pages and one of the reason for doing so was Travis CI.</description>
-    </item>
-    
-    <item>
-      <title>Setting Up Hugo on GitHub Pages</title>
-      <link>https://2km.co/posts/setting-up-hugo-on-github-pages/</link>
-      <pubDate>Mon, 04 Jun 2018 22:39:12 +0530</pubDate>
-      
-      <guid>https://2km.co/posts/setting-up-hugo-on-github-pages/</guid>
-      <description>Recently I started learning GoLang and came across Hugo which is an open source and the fastest static site generator. Before migrating to Hugo this blog was on self-hosted Ghost on DigitalOcean. Ghost is a minimal and straightforward blogging platform which is more into WordPress, Medium or Tumblr league because it comes with a really beautiful admin panel.
-For shell lovers Jekyll, Hugo, Hexo and many other static site generators are no-nonsense tools for quickly spinning up &amp;ldquo;portfolio-cum-personal-blog&amp;rdquo; type websites.</description>
     </item>
     
   </channel>
