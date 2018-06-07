@@ -1,2 +1,2 @@
 # 2km.co
-[![Build Status](https://travis-ci.org/crup/crup.github.io.svg?branch=hugo-gen)](https://travis-ci.org/crup/crup.github.io)
+[![Build Status](https://travis-ci.org/crup/crup-hugo.svg?branch=master)](https://travis-ci.org/crup/crup-hugo)
