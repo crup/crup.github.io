@@ -3,13 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://2km.co/setting-up-hugo-on-github-pages/</loc>
-    <lastmod>2018-06-05T22:39:12+05:30</lastmod>
+    <loc>https://2km.co/posts/setting-up-hugo-on-github-pages/</loc>
+    <lastmod>2018-06-04T22:39:12+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://2km.co/</loc>
-    <lastmod>2018-06-05T22:39:12+05:30</lastmod>
+    <lastmod>2018-06-04T22:39:12+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -20,13 +20,19 @@
   
   <url>
     <loc>https://2km.co/tags/hugo/</loc>
-    <lastmod>2018-06-05T22:39:12+05:30</lastmod>
+    <lastmod>2018-06-04T22:39:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://2km.co/posts/</loc>
+    <lastmod>2018-06-04T22:39:12+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://2km.co/tags/</loc>
-    <lastmod>2018-06-05T22:39:12+05:30</lastmod>
+    <lastmod>2018-06-04T22:39:12+05:30</lastmod>
     <priority>0</priority>
   </url>
   
