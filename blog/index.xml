@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on 2km</title>
+    <link>https://2km.co/blog/</link>
+    <description>Recent content in Blogs on 2km</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Jun 2018 22:39:12 +0530</lastBuildDate>
+    
+	<atom:link href="https://2km.co/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Setting Up Hugo on GitHub Pages</title>
+      <link>https://2km.co/blog/setting-up-hugo-on-github-pages/</link>
+      <pubDate>Tue, 05 Jun 2018 22:39:12 +0530</pubDate>
+      
+      <guid>https://2km.co/blog/setting-up-hugo-on-github-pages/</guid>
+      <description>Recently I started learning GoLang and came across Hugo which is an open source and the fastest static site generator. Before migrating to Hugo this blog was on self-hosted Ghost on DigitalOcean. Ghost is a minimal and straightforward blogging platform which is more into WordPress, Medium or Tumblr league because it comes with a really beautiful admin panel.
+For shell lovers Jekyll, Hugo, Hexo and many other static site generators are no-nonsense tools for quickly spinning up &amp;ldquo;portfolio-cum-personal-blog&amp;rdquo; type websites.</description>
+    </item>
+    
+  </channel>
+</rss>
