@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Continuous Integration on 2km</title>
-    <link>https://2km.co/tags/continuous-integration/</link>
-    <description>Recent content in Continuous Integration on 2km</description>
+    <title>Continuous Integration on Sonu Joshi</title>
+    <link>https://sonu.tv/tags/continuous-integration/</link>
+    <description>Recent content in Continuous Integration on Sonu Joshi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 07 Jun 2018 15:54:58 +0530</lastBuildDate>
     
-	<atom:link href="https://2km.co/tags/continuous-integration/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sonu.tv/tags/continuous-integration/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Deploy Hugo on Github Pages With Travis CI</title>
-      <link>https://2km.co/posts/deploy-hugo-on-github-pages-with-travis-ci/</link>
+      <link>https://sonu.tv/posts/deploy-hugo-on-github-pages-with-travis-ci/</link>
       <pubDate>Thu, 07 Jun 2018 15:54:58 +0530</pubDate>
       
-      <guid>https://2km.co/posts/deploy-hugo-on-github-pages-with-travis-ci/</guid>
+      <guid>https://sonu.tv/posts/deploy-hugo-on-github-pages-with-travis-ci/</guid>
       <description>Getting started with Hugo is very interesting especially when you are new to static site generators. Just run hugo serve and your markdown files are converted into a website. But, when it comes deployment it&amp;rsquo;s really painful if you&amp;rsquo;re doing it manually and it&amp;rsquo;s more painful when you have to do the whole process all over again just to fix a stupid typo.
 In my previous post - Setting Up Hugo on GitHub Pages, I talked about hosting Hugo sites on GitHub pages and one of the reason for doing so was Travis CI.</description>
     </item>

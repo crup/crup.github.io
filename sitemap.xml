@@ -3,52 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://2km.co/posts/deploy-hugo-on-github-pages-with-travis-ci/</loc>
+    <loc>https://sonu.tv/posts/deploy-hugo-on-github-pages-with-travis-ci/</loc>
     <lastmod>2018-06-07T15:54:58+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://2km.co/posts/setting-up-hugo-on-github-pages/</loc>
+    <loc>https://sonu.tv/posts/setting-up-hugo-on-github-pages/</loc>
     <lastmod>2018-06-04T22:39:12+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://2km.co/</loc>
+    <loc>https://sonu.tv/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sonu.tv/tags/continuous-integration/</loc>
     <lastmod>2018-06-07T15:54:58+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://2km.co/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://2km.co/tags/continuous-integration/</loc>
+    <loc>https://sonu.tv/tags/hugo/</loc>
     <lastmod>2018-06-07T15:54:58+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://2km.co/tags/hugo/</loc>
+    <loc>https://sonu.tv/posts/</loc>
     <lastmod>2018-06-07T15:54:58+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://2km.co/posts/</loc>
+    <loc>https://sonu.tv/</loc>
     <lastmod>2018-06-07T15:54:58+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://2km.co/tags/</loc>
+    <loc>https://sonu.tv/tags/</loc>
     <lastmod>2018-06-07T15:54:58+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://2km.co/tags/travis-ci/</loc>
+    <loc>https://sonu.tv/tags/travis-ci/</loc>
     <lastmod>2018-06-07T15:54:58+05:30</lastmod>
     <priority>0</priority>
   </url>

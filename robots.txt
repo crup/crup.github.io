@@ -9,4 +9,4 @@ Allow: /
 User-agent: Googlebot-Mobile
 Allow: /
 
-Sitemap: https://2km.co/sitemap.xml
+Sitemap: https://sonu.tv/sitemap.xml
